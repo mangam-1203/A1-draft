@@ -1,4 +1,4 @@
-openapi: 3.0.5
+openapi: 3.0.6c
 info:
   version: '0.1'
   title: A1
@@ -12,7 +12,7 @@ paths:
       tags:
         - user
       parameters:
-        - name: id
+        - name:
           in: query
           description: ID of the user
           required: true
